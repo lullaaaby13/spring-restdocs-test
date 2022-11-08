@@ -1,0 +1,20 @@
+# Spring RESTDOCS 테스트
+:doctype: book
+:icons: font
+:toc: left
+:source-highlighter: highlightjs
+:sectlinks:
+
+## Getting Books
+
+include::{snippets}/get-books/request-headers.adoc[]
+
+
+include::{snippets}/get-books/response-fields.adoc[]
+
+###### CATEGORY
+include::{snippets}/get-books/response-fields-category.adoc[]
+
+---
+
+include::test.snippet[]
